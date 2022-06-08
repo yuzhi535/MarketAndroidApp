@@ -10,7 +10,7 @@
         android:layout_height="65dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:background="@color/certainblue">
+        android:background="@color/certainpink">
 
         <LinearLayout
             android:id="@+id/detail_title_left"

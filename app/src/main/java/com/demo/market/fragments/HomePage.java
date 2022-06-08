@@ -43,6 +43,7 @@ import com.youth.banner.BannerConfig;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -225,10 +226,10 @@ public class HomePage extends Fragment {
         initView(view);
 
         //转存context
-        mContext = getActivity().getApplicationContext();
+        mContext = Objects.requireNonNull(getActivity()).getApplicationContext();
 
         //判断网络状态，并初始化数据
-        if (NetUtil.isNetworkAvailable(getContext())) {
+        if (NetUtil.isNetworkAvailable(Objects.requireNonNull(getContext()))) {
             //获取分类
             initCategoryClassification();
             //加载轮播图
@@ -236,7 +237,6 @@ public class HomePage extends Fragment {
             //获取热评商品
             initCommodityList(Constants.HOME_PAGE_LIMIT, 0, true);
         } else {
-            // TODO: 2019/3/21 这里会弹出一个框，提示网络不正常！
             Toast.makeText(getActivity().getApplicationContext()
                     , "当前网络环境不正常，商品 信息可能无法显示"
                     , Toast.LENGTH_LONG).show();

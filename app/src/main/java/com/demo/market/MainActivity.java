@@ -87,12 +87,12 @@ public class MainActivity extends AppCompatActivity
     /**
      * 调用MainActivity内的退出方法
      *
-     * @param flag
      */
     public static List<Activity> activityList = new LinkedList();
 
     /**
      * 退出方法
+     * 循环activity退出
      */
     public static void exitApp() {
         for (Activity act : activityList) {

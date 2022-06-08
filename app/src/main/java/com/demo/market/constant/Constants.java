@@ -13,11 +13,6 @@ public class Constants {
     //public static final String BASE_URL = "http://192.168.0.103:8090";
 
     /**
-     * 基础广告地址
-     */
-    public static final String BASE_ADS_URL = "http://wishes-blog.cn:9002/ads";
-
-    /**
      * 登录Url
      */
     public static final String LOGIN_URL = "/control/login";

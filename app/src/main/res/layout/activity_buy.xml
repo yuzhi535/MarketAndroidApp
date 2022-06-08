@@ -7,7 +7,7 @@
         android:id="@+id/buy_title_layout"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/certainblue">
+        android:background="@color/certainpink">
 
         <ImageView
             android:id="@+id/buy_back"

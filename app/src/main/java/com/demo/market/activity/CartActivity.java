@@ -1,5 +1,6 @@
 package com.demo.market.activity;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -93,6 +94,7 @@ public class CartActivity extends Activity implements View.OnClickListener,
      * 用于从网络初始化UI的handler
      */
     private Handler uiHandler = new Handler() {
+        @SuppressLint("HandlerLeak")
         @Override
         public void handleMessage(Message msg) {
             //定义一个弹出层dialog

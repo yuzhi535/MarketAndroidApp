@@ -49,7 +49,7 @@
     <!--登陆界面按钮样式-->
     <style name="ButtonTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
 
-        <item name="colorButtonNormal">@color/certainblue</item><!--正常状态下的颜色  -->
+        <item name="colorButtonNormal">@color/certainpink</item><!--正常状态下的颜色  -->
         <item name="colorControlHighlight">#22000000</item><!--覆盖色，按下的颜色  -->
     </style>
     <!--登陆提示框按钮样式-->

@@ -19,7 +19,7 @@ import org.apache.commons.lang3.StringUtils;
  * https://github.com/orhanobut/dialogplus
  */
 public class MyCartDialog {
-    private Context mContext;
+    private final Context mContext;
 
     public MyCartDialog(Context mContext) {
         this.mContext = mContext;

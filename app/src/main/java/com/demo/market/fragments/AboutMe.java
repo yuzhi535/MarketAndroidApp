@@ -31,9 +31,6 @@ import java.util.Objects;
  * 关于 界面
  */
 public class AboutMe extends Fragment {
-    private static final int PICK_FROM_CAMERA = 1;
-    private static final int CROP_FROM_CAMERA = 2;
-    private static final int PICK_FROM_FILE = 3;
 
     private LinearLayout mBtnCart, mBtnBought, mBtnUserInfo, mBtnAbout, mBtnSetting;
     private ImageView mImageView;
@@ -70,7 +67,7 @@ public class AboutMe extends Fragment {
         mName = view.findViewById(R.id.cat_title);
 
         //获得context
-        Context context = getActivity().getApplicationContext();
+        Context context = Objects.requireNonNull(getActivity()).getApplicationContext();
         //设置到默认头像
         mImageView.setImageDrawable(getResources().getDrawable(R.drawable.cutecat));
 
@@ -126,7 +123,7 @@ public class AboutMe extends Fragment {
         mBtnUserInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (LoginCheckUtil.isLogin(getActivity().getApplicationContext())) {
+                if (LoginCheckUtil.isLogin(Objects.requireNonNull(getActivity()).getApplicationContext())) {
                     Intent intent = new Intent(getActivity(), PersonalActivity.class);
                     startActivity(intent);
                 } else {

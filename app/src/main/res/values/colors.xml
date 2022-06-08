@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#ff387ef5</color>
-    <color name="colorPrimaryDark">#ff387ef5</color>
+    <color name="colorPrimary">#ff8a65</color>
+    <color name="colorPrimaryDark">#ff8a65</color>
     <color name="colorAccent">#D81B60</color>
 
     <!--基础颜色表-->
@@ -17,7 +17,9 @@
     <color name="light_gray">#E0E0E0</color>
 
     <!--登录页面相关-->
-    <color name="certainblue">#ff387ef5</color>
+    <color name="certainblue">#ff8a65</color>
+    <color name="pink"> #f44336 </color>
+    <color name="certainpink"> #ff8a65 </color>
     <color name="jet">#222222</color>
     <color name="oil">#333333</color>
     <color name="monsoon">#777777</color>
@@ -26,14 +28,14 @@
 
     <!--按钮样式-->
     <color name="button_normal">#858585</color>
-    <color name="button_press">#387ef5</color>
+    <color name="button_press">#f44336</color>
 
     <!-- “我的”界面描边颜色 -->
     <color name="border_clo">#ccc</color>
     <color name="text_clo">#333</color>
 
     <!--搜索详情页面-->
-    <color name="titlebarColor">#387ef5</color>
+    <color name="titlebarColor">#f44336</color>
     <color name="titleTextColor">#ffffff</color>
     <color name="main_textTitleColor">#939090</color>
     <color name="main_textAlertColor">#ff0000</color>

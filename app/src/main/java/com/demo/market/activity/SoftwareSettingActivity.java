@@ -41,6 +41,8 @@ public class SoftwareSettingActivity extends AppCompatActivity {
         mBtnClear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                // TODO 实际清除缓存
                 Toast.makeText(SoftwareSettingActivity.this, "清除缓存成功！", Toast.LENGTH_LONG).show();
             }
         });
