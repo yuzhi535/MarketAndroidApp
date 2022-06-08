@@ -254,8 +254,8 @@ public class HomePage extends Fragment {
     private void initBanner() {
         //清空旧数据
         imageList.clear();
-        imageList.add(Constants.BASE_ADS_URL + Constants.ADS.ADS_URL1.getUrl());
-        imageList.add(Constants.BASE_ADS_URL + Constants.ADS.ADS_URL2.getUrl());
+        imageList.add("https://i.pinimg.com/originals/48/c5/4c/48c54ce8ed04965532b67af4543b892c.jpg");
+        imageList.add("https://avatars.mds.yandex.net/i?id=2cf6e99ff8109e959ce7a47974090333-5384958-images-thumbs&n=13");
         banner.setImages(imageList);
         banner.start();
     }
