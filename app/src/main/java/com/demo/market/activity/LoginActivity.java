@@ -3,7 +3,6 @@ package com.demo.market.activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -36,8 +35,6 @@ public class LoginActivity extends AppCompatActivity {
     private static final String TAG = "LoginActivity";
     private static final int REQUEST_SIGNUP = 0;
 
-    private long exitTime;
-    private SQLiteDatabase sqlitedb = null;
     String account = "";
     String password = "";
     String userName = "";
@@ -49,6 +46,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText _passwordText;
     private Button _loginButton;
     private TextView _signupLink;
+
 
     private void init() {
         _mobile_Text = findViewById(R.id.input_mobile);

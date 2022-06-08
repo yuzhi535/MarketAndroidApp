@@ -261,8 +261,8 @@ public class HomePage extends Fragment {
     private void initBanner() {
         //清空旧数据
         imageList.clear();
-        imageList.add("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2F4k%2Fs%2F01%2F210924143A635C-0-lp.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1657263201&t=b593fd826cc46ecf403d2687dfe7585b");
-        imageList.add("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2F1114%2F050421112027%2F210504112027-6-1200.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1657263005&t=0db73eaf163225c7874355c972b4b789");
+        imageList.add("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic2.zhimg.com%2Fv2-0726d82f1ec776c5805ffa9eade09644_1440w.jpg%3Fsource%3D172ae18b&refer=http%3A%2F%2Fpic2.zhimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1657279729&t=84b999d85b7f8fd31926d0bcce7308ec");
+        imageList.add("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg1.mydrivers.com%2Fimg%2F20220104%2Fs_cc37963b7b744bd586c15b311d6f430c.jpg&refer=http%3A%2F%2Fimg1.mydrivers.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1657279688&t=be41454fefbbb122d74dac78fb958b4a");
         banner.setImages(imageList);
         banner.start();
     }

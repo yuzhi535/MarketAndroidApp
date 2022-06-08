@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context="demo.market.activity.ShowImageActivity">
+    tools:context="com.demo.market.activity.ShowImageActivity">
 
     <RelativeLayout
         android:id="@+id/img_title_layout"
@@ -40,7 +40,7 @@
         android:background="@color/black"
         android:visibility="visible" />
 
-    <demo.market.widget.MyImageView
+    <com.demo.market.widget.MyImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

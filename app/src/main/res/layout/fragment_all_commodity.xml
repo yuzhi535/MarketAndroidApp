@@ -39,7 +39,7 @@
             android:layout_centerInParent="true"/>
     </RelativeLayout>
 
-    <androidx.core.widget.SwipeRefreshLayout
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 
         android:id="@+id/refresh_layout"
         android:layout_width="match_parent"
@@ -52,7 +52,7 @@
             android:layout_height="match_parent"/>
 
 
-    </androidx.core.widget.SwipeRefreshLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
 
 </LinearLayout>
