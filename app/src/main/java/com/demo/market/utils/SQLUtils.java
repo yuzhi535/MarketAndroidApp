@@ -56,8 +56,6 @@ public class SQLUtils {
 
     /**
      * 内部类，SQLiteHelper，提供了基础的数据库创建表，增删改查等操作
-     *
-     * @author 郑龙
      */
     public static class SQLiteHelper extends SQLiteOpenHelper {
         /**
