@@ -8,8 +8,9 @@
 > 希望可以给大家完成自己的商城App提供一个思路！
 
 ## 开发环境
-* Android Studio 3.2 
-* gradle 4.6
+* Android Studio 4.x
+* gradle 7.3
+* jdk 11
 
 ## 功能说明
 > 实现功能：
