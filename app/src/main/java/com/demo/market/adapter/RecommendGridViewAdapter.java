@@ -13,9 +13,6 @@ import com.demo.market.models.CommodityModel;
 
 import java.util.List;
 
-/**
- * Created by Administrator on 2017/7/14.
- */
 public class RecommendGridViewAdapter extends BaseAdapter {
 
     private Context context;

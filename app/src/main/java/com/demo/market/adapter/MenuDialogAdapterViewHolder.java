@@ -5,7 +5,6 @@ import android.view.View;
 
 /**
  * 用于adapter显示的viewHolder
- * Created by 郑龙 on 2017/7/14.
  */
 public class MenuDialogAdapterViewHolder {
     //无参构造

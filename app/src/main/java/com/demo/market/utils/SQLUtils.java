@@ -14,8 +14,6 @@ import java.util.Date;
 
 /**
  * SQLite工具类
- *
- * @author 郑龙
  */
 
 public class SQLUtils {

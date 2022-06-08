@@ -13,9 +13,6 @@ import demo.market.R;
 
 /**
  * 启动动画Activity
- *
- * @author 郑龙
- * @date 2019/4/8 11:13
  */
 public class AnimationActivity extends AppCompatActivity {
     /**

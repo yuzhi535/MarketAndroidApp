@@ -2,8 +2,6 @@ package com.demo.market.models;
 
 /**
  * 商品model
- *
- * @author 郑龙
  */
 public class CommodityModel {
     /**

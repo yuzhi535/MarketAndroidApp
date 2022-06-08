@@ -8,8 +8,6 @@ import java.io.ByteArrayOutputStream;
 
 /**
  * 图片工具类
- *
- * @author 郑龙
  */
 public class ImageUtil {
     /**

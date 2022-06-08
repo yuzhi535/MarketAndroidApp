@@ -2,8 +2,6 @@ package com.demo.market.callbacks;
 
 /**
  * 基础callback
- *
- * @author 郑龙
  */
 public interface BaseCallback {
     /**

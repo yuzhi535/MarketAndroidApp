@@ -16,7 +16,6 @@ import java.util.List;
 
 /**
  * 要显示的主菜单的adapter
- * Created by zl on 2016/5/24.
  */
 public class MenuDialogAdapter extends BaseAdapter {
     private Context mContext;

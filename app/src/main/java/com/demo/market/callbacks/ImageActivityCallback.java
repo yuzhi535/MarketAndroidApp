@@ -2,8 +2,6 @@ package com.demo.market.callbacks;
 
 /**
  * 图片详情Activity回调
- *
- * @author 郑龙
  */
 public interface ImageActivityCallback extends BaseCallback{
     /**

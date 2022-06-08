@@ -8,8 +8,6 @@ import java.util.List;
 
 /**
  * 首页fragment适配器
- *
- * @author 郑龙
  */
 public class MainActivityFragmentAdapter extends FragmentPagerAdapter {
 

@@ -12,9 +12,6 @@ import demo.market.R;
 
 /**
  * 软件设置Activity
- *
- * @author 郑龙
- * @date 2019/4/8 10:58
  */
 public class SoftwareSettingActivity extends AppCompatActivity {
     /**

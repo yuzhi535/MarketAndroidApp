@@ -32,10 +32,6 @@ import okhttp3.FormBody;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
-/**
- * Created by 郑龙 on 2017/8/19.
- */
-
 public class PersonalActivity extends AppCompatActivity {
 
     private Toolbar mToolbar;

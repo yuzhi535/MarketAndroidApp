@@ -7,8 +7,6 @@ import org.apache.commons.lang3.StringUtils;
 
 /**
  * 用户登录检查工具,用于业务控制，判断是否需要登录才能进行接下来的操作
- *
- * @author 郑龙
  */
 public class LoginCheckUtil {
     private static Context mContext;

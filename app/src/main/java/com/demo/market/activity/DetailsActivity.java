@@ -49,8 +49,6 @@ import okhttp3.Response;
 
 /**
  * 商品详情界面
- *
- * @author 郑龙
  */
 public class DetailsActivity extends AppCompatActivity {
     /**

@@ -15,8 +15,6 @@ import java.util.List;
 
 /**
  * 热评商品GridView适配器
- *
- * @author 郑龙
  */
 public class HotGridViewAdapter extends BaseAdapter {
 

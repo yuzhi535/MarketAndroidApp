@@ -17,8 +17,6 @@ import org.apache.commons.lang3.StringUtils;
  * (二次封装github开源dialog组件)
  * url：
  * https://github.com/orhanobut/dialogplus
- *
- * @author 郑龙
  */
 public class MyCartDialog {
     private Context mContext;

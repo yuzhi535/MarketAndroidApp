@@ -16,8 +16,6 @@ import java.util.List;
 
 /**
  * 要显示的商品的adapter
- *
- * @author 郑龙
  */
 public class CommodityItemAdapter extends BaseAdapter {
     private Handler mHandler;

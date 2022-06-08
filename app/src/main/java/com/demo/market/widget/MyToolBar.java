@@ -21,8 +21,6 @@ import demo.market.R;
 
 /**
  * 一个自定义toolbar
- *
- * @author 郑龙
  */
 public class MyToolBar extends LinearLayout implements AppBarLayout.OnOffsetChangedListener {
 

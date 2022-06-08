@@ -9,8 +9,6 @@ import androidx.viewpager.widget.ViewPager;
 
 /**
  * 首页ViewPager
- *
- * @author 郑龙
  */
 
 public class MainActivityViewPager extends ViewPager {

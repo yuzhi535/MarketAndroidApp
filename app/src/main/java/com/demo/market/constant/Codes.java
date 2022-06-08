@@ -2,8 +2,6 @@ package com.demo.market.constant;
 
 /**
  * 这里定义了一些结果代码
- *
- * @author 郑龙
  */
 public class Codes {
     /**

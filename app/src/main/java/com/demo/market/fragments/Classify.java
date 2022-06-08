@@ -39,7 +39,6 @@ import okhttp3.Response;
 
 /**
  * 主要Activity，使用时需要改成FragmentActivity
- * Created by 郑龙 on 2017/7/10.
  */
 
 public class Classify extends Fragment {

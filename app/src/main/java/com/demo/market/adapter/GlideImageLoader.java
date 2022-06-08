@@ -8,8 +8,6 @@ import com.youth.banner.loader.ImageLoader;
 
 /**
  * GridView图片加载器
- *
- * @author 郑龙
  */
 public class GlideImageLoader extends ImageLoader {
     @Override

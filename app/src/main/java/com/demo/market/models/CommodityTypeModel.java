@@ -3,9 +3,6 @@ package com.demo.market.models;
 
 /**
  * 商品类型Vo
- *
- * @author 郑龙
- * @date 2019/3/21 11:32
  */
 
 public class CommodityTypeModel {

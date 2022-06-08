@@ -5,8 +5,6 @@ import java.util.List;
 
 /**
  * List工具类
- *
- * @author 郑龙
  */
 public class ListUtil {
     /**

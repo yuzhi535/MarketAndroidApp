@@ -3,8 +3,6 @@ package com.demo.market.models;
 
 /**
  * 购物车或已购买商品Model
- *
- * @author 郑龙
  */
 public class CartModel {
     /**

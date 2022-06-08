@@ -2,8 +2,6 @@ package com.demo.market.constant;
 
 /**
  * 这里规定了一些可全局使用的常量
- *
- * @author 郑龙
  */
 
 public class Constants {

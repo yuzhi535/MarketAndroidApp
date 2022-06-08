@@ -17,8 +17,6 @@ import java.util.List;
 
 /**
  * GridView适配器
- *
- * @author 郑龙
  */
 public class SameLinkGridApter extends BaseAdapter {
 

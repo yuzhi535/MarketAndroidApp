@@ -19,8 +19,6 @@ import demo.market.R;
 
 /**
  * 设置activity
- *
- * @author 郑龙
  */
 
 public class SettingActivity extends AppCompatActivity {

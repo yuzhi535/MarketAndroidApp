@@ -12,8 +12,6 @@ import okhttp3.RequestBody;
 
 /**
  * 基础网络请求工具类
- *
- * @author 郑龙
  */
 public class NetUtil {
     /**

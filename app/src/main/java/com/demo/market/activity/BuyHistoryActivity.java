@@ -36,9 +36,6 @@ import okhttp3.Response;
 
 /**
  * 历史购买Activity
- *
- * @author 郑龙
- * @date 2019/4/8 8:39
  */
 public class BuyHistoryActivity extends AppCompatActivity {
     /**

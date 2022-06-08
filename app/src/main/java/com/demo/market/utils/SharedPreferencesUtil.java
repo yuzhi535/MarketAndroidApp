@@ -7,9 +7,6 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Map;
 
-/**
- * Created by Marrionette on 2017/7/16.
- */
 
 public class SharedPreferencesUtil {
     /**

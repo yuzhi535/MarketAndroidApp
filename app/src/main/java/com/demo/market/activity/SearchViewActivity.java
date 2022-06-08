@@ -27,8 +27,6 @@ import java.util.ArrayList;
 
 /**
  * 搜索页
- *
- * @author 郑龙
  */
 
 public class SearchViewActivity extends AppCompatActivity {

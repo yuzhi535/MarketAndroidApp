@@ -11,9 +11,6 @@ import demo.market.R;
 
 /**
  * 关于我们Activity
- *
- * @author 郑龙
- * @date 2019/4/8 10:39
  */
 public class AboutUsActivity extends AppCompatActivity {
     /**

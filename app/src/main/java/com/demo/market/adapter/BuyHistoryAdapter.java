@@ -20,8 +20,6 @@ import demo.market.R;
 
 /**
  * 购买历史Adapter
- *
- * @author 郑龙
  */
 public class BuyHistoryAdapter extends BaseAdapter {
     private List<CartModel> boughtCommodityList;
