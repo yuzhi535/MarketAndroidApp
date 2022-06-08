@@ -10,7 +10,7 @@ public class Constants {
     /**
      * web端基础地址
      */
-    public static final String BASE_URL = "http://10.0.2.2:8090";
+    public static final String BASE_URL = "http://192.168.0.105:8090";
     //本地测试url
     //public static final String BASE_URL = "http://192.168.0.103:8090";
 

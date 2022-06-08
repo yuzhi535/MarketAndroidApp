@@ -254,8 +254,8 @@ public class HomePage extends Fragment {
     private void initBanner() {
         //清空旧数据
         imageList.clear();
-        imageList.add("https://i.pinimg.com/originals/48/c5/4c/48c54ce8ed04965532b67af4543b892c.jpg");
-        imageList.add("https://avatars.mds.yandex.net/i?id=2cf6e99ff8109e959ce7a47974090333-5384958-images-thumbs&n=13");
+        imageList.add("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2F4k%2Fs%2F01%2F210924143A635C-0-lp.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1657263201&t=b593fd826cc46ecf403d2687dfe7585b");
+        imageList.add("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2F1114%2F050421112027%2F210504112027-6-1200.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1657263005&t=0db73eaf163225c7874355c972b4b789");
         banner.setImages(imageList);
         banner.start();
     }
