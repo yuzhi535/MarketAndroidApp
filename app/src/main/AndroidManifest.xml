@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sqh.market">
+    package="demo.market">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -15,7 +15,7 @@
         android:usesCleartextTraffic="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name="com.sqh.market.activity.AnimationActivity"
+        <activity android:name="com.demo.market.activity.AnimationActivity"
             android:exported="true"
             >
             <intent-filter>
@@ -24,55 +24,55 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.demo.market.MainActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.SignupActivity"
+            android:name="com.demo.market.activity.SignupActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.LoginActivity"
+            android:name="com.demo.market.activity.LoginActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.SettingActivity"
+            android:name="com.demo.market.activity.SettingActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.PersonalActivity"
+            android:name="com.demo.market.activity.PersonalActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.SearchActivity"
+            android:name="com.demo.market.activity.SearchActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.DetailsActivity"
+            android:name="com.demo.market.activity.DetailsActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.SearchViewActivity"
+            android:name="com.demo.market.activity.SearchViewActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.ShowImageActivity"
+            android:name="com.demo.market.activity.ShowImageActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.CartActivity"
+            android:name="com.demo.market.activity.CartActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.BuyHistoryActivity"
+            android:name="com.demo.market.activity.BuyHistoryActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.AboutUsActivity"
+            android:name="com.demo.market.activity.AboutUsActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.SoftwareSettingActivity"
+            android:name="com.demo.market.activity.SoftwareSettingActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>

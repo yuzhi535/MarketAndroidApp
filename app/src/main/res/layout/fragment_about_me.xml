@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<android.support.design.widget.CoordinatorLayout
+<androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/expanded_toolbar_height"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-        <android.support.design.widget.CollapsingToolbarLayout
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
             android:id="@+id/collapsing_toolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:contentScrim="@color/titlebarColor"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
-            <android.support.v7.widget.Toolbar
+            <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:layout_collapseMode="pin"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
 
-            <com.sqh.market.widget.MyToolBar
+            <com.demo.market.widget.MyToolBar
                 android:id="@+id/stuff_container"
                 android:layout_width="wrap_content"
                 android:layout_height="?attr/actionBarSize">
@@ -55,19 +55,19 @@
                         android:textColor="@android:color/white"
                         android:textSize="18dp"/>
                 </LinearLayout>
-            </com.sqh.market.widget.MyToolBar>
+            </com.demo.market.widget.MyToolBar>
 
-        </android.support.design.widget.CollapsingToolbarLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
-    <android.support.v4.widget.NestedScrollView
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <include layout="@layout/content_about_me"/>
 
-    </android.support.v4.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>
 
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

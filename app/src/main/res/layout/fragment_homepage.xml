@@ -6,14 +6,12 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:orientation="vertical"
-    tools:context="com.sqh.market.activity.DetailsActivity">
+    tools:context="com.demo.market.activity.DetailsActivity">
 
     <LinearLayout
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:background="@color/colorPrimary"
         android:orientation="horizontal"
         android:padding="10dp">
@@ -35,10 +33,10 @@
             android:background="@color/white"
             android:focusable="false"
             android:iconifiedByDefault="false"
-            android:queryHint="@string/home_search"></SearchView>
+            android:queryHint="@string/home_search" />
     </LinearLayout>
 
-    <android.support.v4.widget.SwipeRefreshLayout
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 
         android:id="@+id/refresh_layout"
         android:layout_width="match_parent"
@@ -60,7 +58,7 @@
                     android:layout_height="230dp"
                     android:background="#FFFFFF">
 
-                    <android.support.v4.view.ViewPager
+                    <androidx.viewpager.widget.ViewPager
                         android:id="@+id/viewPager"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -94,7 +92,7 @@
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
-                        android:background="@color/TableLinecolor"></View>
+                        android:background="@color/TableLinecolor" />
                 </LinearLayout>
 
                 <RelativeLayout
@@ -219,5 +217,5 @@
 
             </RelativeLayout>
         </ScrollView>
-    </android.support.v4.widget.SwipeRefreshLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 </LinearLayout>
