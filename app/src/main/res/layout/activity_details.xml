@@ -55,7 +55,6 @@
                 android:id="@+id/detail_banner_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/product"
                 android:orientation="vertical">
 
                 <com.youth.banner.Banner
